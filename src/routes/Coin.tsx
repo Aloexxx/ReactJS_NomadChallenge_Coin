@@ -150,7 +150,7 @@ function Coin(){
   return(
       <Container>
         <Header>
-            <Link to={`/`} style={{position:"absolute",left:0}}>◀</Link>
+            <Link to={`${process.env.PUBLIC_URL}/`} style={{position:"absolute",left:0}}>◀</Link>
             <Title>{tickersData?.name||"Loading"}</Title>
         </Header>
           {loading?<Loader>Loading...</Loader>:
