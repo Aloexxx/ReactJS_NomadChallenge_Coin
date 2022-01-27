@@ -182,7 +182,7 @@ function Coin(){
               </Overview>
               <TabBar>
                 <Tab isActive={chartMatch!==null}>
-                  <Link to={`/:coinId/chart`}>Chart</Link>
+                  <Link to={`/${coinId}/chart`}>Chart</Link>
                 </Tab>
                 <Tab isActive={priceMatch!==null}>
                   <Link to={`/${coinId}/price`}>Price</Link>
