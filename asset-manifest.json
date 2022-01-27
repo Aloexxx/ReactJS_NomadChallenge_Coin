@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/ReactJS_NomadChallenge_Coin/static/js/main.1e9f2054.js",
+    "main.js": "/ReactJS_NomadChallenge_Coin/static/js/main.dd36e4a1.js",
     "index.html": "/ReactJS_NomadChallenge_Coin/index.html",
-    "main.1e9f2054.js.map": "/ReactJS_NomadChallenge_Coin/static/js/main.1e9f2054.js.map"
+    "main.dd36e4a1.js.map": "/ReactJS_NomadChallenge_Coin/static/js/main.dd36e4a1.js.map"
   },
   "entrypoints": [
-    "static/js/main.1e9f2054.js"
+    "static/js/main.dd36e4a1.js"
   ]
 }
