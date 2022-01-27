@@ -182,14 +182,14 @@ function Coin(){
               </Overview>
               <TabBar>
                 <Tab isActive={chartMatch!==null}>
-                  <Link to={`${process.env.PUBLIC_URL}/:coinId/chart`}>Chart</Link>
+                  <Link to={`/:coinId/chart`}>Chart</Link>
                 </Tab>
                 <Tab isActive={priceMatch!==null}>
                   <Link to={`/${coinId}/price`}>Price</Link>
                 </Tab>
               </TabBar>
               <Switch>
-                  <Route path={`${process.env.PUBLIC_URL}/:coinId/chart`}>
+                  <Route path={`/:coinId/chart`}>
                       <Chart coinId={coinId}/>
                   </Route>
                   <Route path={`/:coinId/price`}>

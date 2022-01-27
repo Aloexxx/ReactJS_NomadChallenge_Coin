@@ -7,10 +7,10 @@ function Router(){
     return(
         <BrowserRouter>
            <Switch>
-                <Route path={`${process.env.PUBLIC_URL}/:coinId`}>
+                <Route path={`/:coinId`}>
                     <Coin/>
                 </Route>
-                <Route path={`${process.env.PUBLIC_URL}/`}>
+                <Route path={`/`}>
                     <Coins/>
                 </Route>
             </Switch>

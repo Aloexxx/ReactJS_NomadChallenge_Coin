@@ -93,7 +93,7 @@ function Coins(){
                     {data?.slice(0,100).map(coin=>
                         <Coin key={coin.id}>
                             <Link to={{
-                                pathname:`${process.env.PUBLIC_URL}/:coinId/chart`,
+                                pathname:`/${coin.id}/chart`,
                                 state:{name:coin.name}
                             }}>
                                 <Img src={`https://cryptoicon-api.vercel.app/api/icon/${coin.symbol.toLocaleLowerCase()}`}/>
